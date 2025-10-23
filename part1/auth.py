@@ -2,7 +2,6 @@
 
 
 
-user_db = []
 
 # james = {
 #     "username": "james",
@@ -20,6 +19,7 @@ user_db = []
 
 
 
+user_db = []
 
 
 def register():
@@ -37,16 +37,28 @@ def register():
     }
 
     user_db.append(user)
-    print(" registratiion successful ")
+    print("\n registratiion successful \n")
+
+
+def login():
+    username = input("enter your username: ")
+    password = input(" enter a password: ")
+
+
+    if username == user["username"]
+
+
+
+
 
 
 
 while True:
-    print(" Welcome to the open network \n type Register to register and login to login")
+    print("\n \n Welcome to the open network \n type Register to register and login to login")
     user_input = input("register or login: ")
 
     if user_input =="register":
         register()
     
     
-    print(user_db)
+    print(len(user_db))
